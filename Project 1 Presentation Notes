@@ -1,0 +1,48 @@
+#Project 1 Presentation Notes
+
+####Group 1
+===========
+Summed columns of different learning categories and found that there is no dominating category. They seem to be fairly uniform. Main takeaway is that there are both specialists and generalists in the class, so there are advantages to working in groups.
+
+####Group 2
+===========
+Relationship between learning style and group roles people tend to take on. By and large, no striking relationship. 
+
+####Group 3
+==========
+Come back on Thursday
+
+####Group 4
+==========
+Roadblocks: Couldn't run virtual machine and didn't understand why. The curator couldn't get the computer to work at first so other group members had to take on that task. "Have you had any personal experience in any of the following topics?" suggested that people didn't know how to take the survey or didn't take it seriously.
+
+####Group 5
+==========
+Used a cdv file rather than python so they could analyze it in R.
+Kinesthetic learners learn more on their own, whereas visual learners learn better in class.
+
+####Group 6
+==========
+Problems accessing the example file. 
+
+####Group 7
+==========
+Created a cdv file in python that could be opened in R. Had to filter out the unicode to make the data able to be parsed. Used paired t-tests and found no significant relationships. Learning style distributions don't appear to be normal. Stat 134 was the modal class people had taken.  
+
+####Group 8
+==========
+Learning preference vs. known computer science languages. Used ANOVA to analyze learning score by computer science language. No significant effects. 
+
+####Group 9
+==========
+Without a curator, everyone had to do a little bit of the cleaning which helped them do things at the same time instead of waiting.
+
+####Group 10
+==========
+Used R as analyzing tool. Saved as cdv file. Focused on frequency of programming languages. R most common, followed by Python.
+No relationship between learning style and languages used. Word cloud stood out the most.
+
+####Group 11
+==========
+Meshed roles. Top career goal was actuary.
+
