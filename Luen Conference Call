@@ -1,0 +1,41 @@
+### Notes from Luen's Conference Call
+#### 2013/11/19
+
+Code isn't his final version due to laptop failure.
+
+#### Error Diagram
+Think of both tau and error as a function of a conditional intensity.
+We can think of lambda (conditional intensity) as a threshold at which we turn on the alarm.
+How do we evaluate tau = proportion of time the alarm is on?
+Proportion of events that have a conditional intensity less than lambda is equal to the proportion of events you miss.
+Can also do in terms of window length--increases from left to right. Find what proportion of time is covered by 
+that window length. 
+Hindsight, Luen believes it might be easier to work in terms of conditional intensity lambda, and then translate back
+to window length. 
+
+For a particular window length, the interarrival times are the only thing in our prediction; lambda is found with the 
+cdf. For instance, set lambda = 1/w. Totally wrong to predict the absolute number of earthquakes, but it will get you 
+somewhat consistent with ETAS.
+Window lengths adjusted for magnitude. Same principle as automatic alarms. 
+
+Looking at the code uploaded. 
+
+Whether to use moment magnitude or body-wave magnitude? Usually swept under the rug. Generally people are sloppy about
+this. Only matters at high magnitudes because at low magnitudes both magnitude types are about the same. 
+
+Code trying to do 4 things:
+Find temporal distributions 
+List suffixes are finding conditional intensities or window lengths at the time that the event occurs.
+Want to do for every event in the test set.
+Proportion of events with lambda < lambda-threshold is the nu (error) value at that point. 
+
+Training Set:
+Grid of times from beginning of training period to end of training period in periods of 1 day.
+
+How many values of lambda to generate the diagram?
+Thousands of values of lambda. Enough to draw diagram.
+
+How to vary the tuning parameter?
+Found parameter that worked best on the training set. Just trial and error (Could do something more sophisticated--like
+optimization). 1 decimal place is find. Apply to the grid. See how well you do. Find area under error diagram (Not always
+the best method). 
