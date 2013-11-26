@@ -1,0 +1,34 @@
+Fernando Perez IPython Notebook Lecture
+2013/11/26
+
+IPython Notebook
+
+Computing is not the "third branch" of science
+-Backbone of theory and experiment
+-Theory and experimentation other two branches
+-Computing and data is completely woven into theory and experimentation
+
+Python very general tool rather than for a specific purpose
+Need environment that can adapt with the changing definition of the problem
+
+python-entire ecosystem
+NumPy
+IPython
+SciPy
+matplotlib
+SymPy
+Cython
+Mayavi
+pandas
+StatsModels
+scikits learn
+etc
+
+IPython
+Started in 2001 during Perez's Physics PhD
+Better shell 
+Allow plotting, parallel computing
+repl: read evaluate print loop - R console, iPython, terminal
+2010 fancier shell and a protocol- repl abstracted 
+Now running in web browser-like Google Docs with computing ability
+IPython can run as a slide show while running everything. All inclusive from analysis to presentation
